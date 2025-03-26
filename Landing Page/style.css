@@ -1,0 +1,162 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: roboto;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+}
+
+#header-logo-container{
+    width: 60%;
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+#headers-container{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+#section-1{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 50px 40px;
+}
+
+#section-1-content{
+    width: 50%;
+}
+
+#section-1-title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#section-1-text, .header-title{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#section-1-image{
+    background-color: grey;
+    text-align: center;
+    align-self: center;
+    padding: 40px;
+}
+
+#section-1-button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3882F6;
+}
+
+#section-2{
+}
+
+#section-2-container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 40px
+}
+#section-2-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image{
+    align-self: center;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.card-text{
+    text-align: center;
+    width: 100px;
+}
+
+#section-3{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 10vh 20vw;
+}
+
+#section-3-quote{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+#section-3-quote-author{
+    text-align: right;
+    
+}
+
+#section-4{
+    padding: 10vh 20vw;
+    align-content: center;
+}
+
+#section-4-banner{
+    display: flex;
+    background-color: #3882F6;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10vh 10vw;
+
+}
+
+#section-4-banner-text-title{
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#section-4-banner-text-text{
+    color: #E5E7EB;
+}
+
+#section-4-banner-button{
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    align-content: center;
+}
+
+#section-4-banner-button-button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 5px 20px;
+}
+
+
+#footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px 0px;
+}
